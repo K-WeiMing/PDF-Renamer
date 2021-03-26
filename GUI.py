@@ -1,5 +1,5 @@
 import PySimpleGUI as sg
-import Scanner as scn
+import Scan as scn
 
 def gui_start():
     layout = [
