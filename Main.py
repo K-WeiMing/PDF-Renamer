@@ -1,4 +1,4 @@
 import GUI
 
-if __name___ == '__main__':
+if __name__ == '__main__':
 	GUI.gui_start()

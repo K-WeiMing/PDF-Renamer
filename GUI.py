@@ -1,7 +1,12 @@
 import PySimpleGUI as sg
 import Scan as scn
 
+
 def gui_start():
+    """
+    Start the GUI
+    :return: None
+    """
     layout = [
         [sg.Text("Document to Rename")],
         [sg.In(key="_FILES_"), sg.FilesBrowse(file_types=(("PDF Files", "*.pdf"),))],
