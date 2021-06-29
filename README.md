@@ -9,4 +9,5 @@ This project is used to rename documents based on detecting the document number 
 python Main.py
 ```
 
+![Rename-PDF](/gui.png)
 Select multiple files using "Browse" and click "OK" to begin renaming
