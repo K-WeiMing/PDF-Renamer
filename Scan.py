@@ -151,7 +151,7 @@ def getFileName(doc_name):
         # cv2.imshow('img', img)
         # cv2.waitKey(0)
 
-        df = pd.DataFrame(df_list, columns=['Mat', 'Batch', 'ERP'])
+        df = pd.DataFrame(df_list, columns=['Document_ID'])
         df.drop_duplicates(inplace=True)
         df.dropna(inplace=True, axis=0)
 
