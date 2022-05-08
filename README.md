@@ -1,5 +1,5 @@
 # Rename-PDF
-To rename PDF Documents using OpenCV and Pytesseract
+To rename PDF Documents based on the `Document_ID` using OpenCV and Pytesseract
 
 # Project Description
 This side project is used to rename documents based on detecting the document number using ReGex, opencv and pytesseract.
